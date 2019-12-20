@@ -7,6 +7,11 @@
 </head>
 <style>
 
+*:focus {
+    outline: none;
+}
+
+
     img {
         display: flex;
         justify-content: center;
@@ -15,27 +20,47 @@
 
     button {
         display: flex;
+        font-size: 15px;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+        padding: 5px;
+        border-radius: 3px;
+        
+    }
+
+    button:hover {
+        cursor: pointer;
     }
 
     input {
         display: flex;
+        padding: 5px;
+        width: 400px;
+        height: 25px;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+        border-radius: 30px;
+        ;      
+    }
+
+    .search-bar {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 180px 50px 20px 50px;
     }
     
     </style>
 <body>
 
-    <div>
-        <img class="center" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-    </div>
+<div class="search-bar">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+</div>
 
-
-<input type="text"/>
+<input type="text" />
 <button>Google Search</button>
 <button>I'm Feeling Lucky</button>
 
