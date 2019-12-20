@@ -19,30 +19,42 @@
     }
 
     button {
-        display: flex;
-        font-size: 15px;
-        justify-content: center;
-        align-items: center;
+        display: inline-block;
+        color: #808080;
+        font-size: 14px;
         margin: 0 auto;
-        padding: 5px;
-        border-radius: 3px;
-        
+        padding: 10px 14px;
+        border-radius: 4px;
+        background-color: #f5f4f4;
+        border-color: white;
+    }
+
+    .search-button{
+        text-align: center;
+        padding: 36px;
+
     }
 
     button:hover {
         cursor: pointer;
+        border: solid 1px #a3a3a3;
+        color: #2e2d2d;
+        box-shadow: 0px 1px 10px 0px rgb(241, 241, 241);
     }
 
     input {
         display: flex;
+        background-color: #f8f8f8;
+        outline: none;
+        font-size: 13px;
         padding: 5px;
-        width: 400px;
-        height: 25px;
+        width: 469px;
+        height: 32px;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        border-radius: 30px;
-        ;      
+        border-radius: 30px;    
+        border: solid 1px #bebcbc;       
     }
 
     .search-bar {
@@ -52,6 +64,11 @@
         margin: 0 auto;
         padding: 180px 50px 20px 50px;
     }
+
+    .search {
+        margin-right: 9px;
+    }
+
     
     </style>
 <body>
@@ -61,10 +78,10 @@
 </div>
 
 <input type="text" />
-<button>Google Search</button>
-<button>I'm Feeling Lucky</button>
-
-
+<div class="search-button">
+    <button class="search">Google Search</button>
+    <button class="lucky">I'm Feeling Lucky</button>
+</div>
 
 </body>
 
