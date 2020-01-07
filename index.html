@@ -3,76 +3,25 @@
 
 <head>
     <title>Google</title>
- 
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
-<style>
-
-*:focus {
-    outline: none;
-}
-
-
-    img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    button {
-        display: inline-block;
-        color: #808080;
-        font-size: 14px;
-        margin: 0 auto;
-        padding: 10px 14px;
-        border-radius: 4px;
-        background-color: #f5f4f4;
-        border-color: white;
-    }
-
-    .search-button{
-        text-align: center;
-        padding: 36px;
-
-    }
-
-    button:hover {
-        cursor: pointer;
-        border: solid 1px #a3a3a3;
-        color: #2e2d2d;
-        box-shadow: 0px 1px 10px 0px rgb(241, 241, 241);
-    }
-
-    input {
-        display: flex;
-        background-color: #f8f8f8;
-        outline: none;
-        font-size: 13px;
-        margin-left: 20px;
-        padding: 5px 35px;
-        width: 485px;
-        height: 32px;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        border-radius: 30px;
-        border: solid 1px #bebcbc;       
-    }
-
-    .google-logo {
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        padding: 150px 50px 20px 50px;
-    }
-
-    .search {
-        margin-right: 9px;
-    }
-
-    
-    </style>
 <body>
+    <div id="page-container">
+    <nav class="topnav">
+        <a class="about" href="#home">About</a>
+        <a class="store" href="#store">Store</a>
+
+        <div class="right-nav">
+            <a class="gmail" href="#gmail">Gmail</a>
+            <a class="images" href="#images">Images</a>
+            <i class="material-icons">apps</i>
+
+        </div>
+        
+    </nav>
+      
 
 <div class="google-logo">
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
@@ -82,6 +31,25 @@
 <div class="search-button">
     <button class="search">Google Search</button>
     <button class="lucky">I'm Feeling Lucky</button>
+</div>
+
+    
+<footer id="footer">
+    
+    <nav class="botnav">
+        <a class="advertising" href="#home">Advertising</a>
+        <a class="business" href="#store">Business</a>
+        <a class="how-search-works" href="#store">How Search Works</a>
+        
+        <div class="bottom-right-nav">
+            <a class="privacy" href="#gmail">Privacy</a>
+            <a class="terms" href="#images">Terms</a>
+            <a class="settings" href="#images">Settings</a>
+        </div>
+    </div>
+
+        </nav>
+    </footer>
 </div>
 
 </body>
